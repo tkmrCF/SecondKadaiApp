@@ -82,7 +82,7 @@
                                 </constraints>
                                 <state key="normal" title="戻る"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="fAG-FF-BCd"/>
+                                    <segue destination="FnR-Ny-zL8" kind="unwind" unwindAction="unwind:" id="sSX-dC-tgR"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="こんにちは、名前さん" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9JJ-Fc-YoU">
@@ -108,6 +108,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6fQ-Cj-4o9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="FnR-Ny-zL8" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="-326" y="-138"/>
         </scene>
