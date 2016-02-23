@@ -39,7 +39,12 @@ class ViewController: UIViewController {
     
     }
     
-    
+    // レビューにより追加
+    @IBAction func unwind(segue: UIStoryboardSegue) {
+        // 他の画面から segue を使って戻ってきた時に呼ばれる
+    }
 
+    
+    
 }
 
